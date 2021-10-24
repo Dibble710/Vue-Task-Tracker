@@ -4,7 +4,6 @@
     <div class="buttons">
       <Button
         @btn-click="$emit('toggle-add-task')"
-        class="btn-primary"
         :text="showAddTask ? 'Close' : 'Add Task'"
         :class="showAddTask ? 'btn-danger' : 'btn-primary'"
       />
